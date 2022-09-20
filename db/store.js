@@ -1,39 +1,29 @@
-// You will need to lookup and use this package for the Unique IDs. (utils, fs, and uuid) (make sure you require it!!!) This package will help with generating unique ids in the db.json file
+const fs = require('fs');
+const notes = require ('./db.json');
+const router = express();
 
-// create variables for readFileAsync and writeFileAsync
-// const readFileAsync = (something with util)
-// const writeFileAsync = (something with util)
+// uuid
+// const { v4: uuidv4 } = require('uuid');
 
-// We need a class of store
 class Store {
-
-    // read()
-    read() {
-        return readFileAsync('db/db.json', 'utf8');
+    
+    // read file Async
+    read () {
+        return readFileAsync ('db/db.json', 'utf8');
     }
 
-    // write()
-        // return db/db.json JSON.stringify(note)
+    // write return db/db.json JSON.stringify(note);
 
-// getNotes()
-    // return read().than(notes) parse notes concat(JSON.parse(notes))
+//getNotes
+// router.get('/notes', (req, res) => {
+//     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
+// });
 
-// addNotes()
-    // you need to save title, text = notes const (title, text) = note
+//addNotes
 
-    // if (!title || !text) throw an error title and notes cannot be blank (throw!!!)
-
-    // add the UNIQUE id to the note using our package
-
-    // create a new variable to hold our new note with the new given id
-    // const userNote = {title, text, id: (needs to be equal to something)}
-
-    // grab all notes, and the new note and update notes to return the new note ( ...notes, userNote)
-
-    // 
-
-// deleteNotes()
+//deleteNotes
 
 }
 
 // export module here
+module.exports = { addNotes, deleteNotes };

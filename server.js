@@ -1,3 +1,4 @@
+// dependencies
 const express = require('express');
 const htmlRoutes = require('./routes/htmlRoutes');
 const apiRoutes = require('./routes/apiRoutes');
@@ -12,7 +13,6 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
-
 
 //starting server on PORT
 app.listen(PORT, () => console.log(`Listening to server on ${Port}`))
