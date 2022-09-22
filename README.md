@@ -1,52 +1,82 @@
-# Note-Taking
+# <A-Very-Green-Note-Taker>
 
 ## Description
 
-This is an application that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
+!!!!!!!!
+
+## Mock-Up
+
+This following image shows a mock-up of the application:
+![HTML webpage of the Team Profile Generator titled "My Awesome Team" that features three boxes listing employees names, titles, and other key info.]()
+
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Badges](#badges)
+- [Contributing](#how-to-contribute)
+- [Tests](#tests)
+- [Author](#about-the-author)
 
 ## Installation
 
-Enter this in terminal to download dependencies:
-` npm i `
+Before using this application, you must install the inquirer package.
+Run the following command line to initialize a new package:
+~~~
+npm init -y
+~~~
+
+For this application we are using Inquirer version 8.2.4.
+Run the following command to install the proper version and required package:
+~~~
+npm i inquirer@8.2.4
+~~~
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+To access this application, click [♡ here ♡] to visit the following URL: 
 
 ## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+This application is covered under the MIT license.
+To view a description of this license type, refer to the repository or click [♡ here ♡](https://opensource.org/licenses/MIT).
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+This application was made with JavaScript:
 
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
-## Features
+This application also uses HTML and CSS styling:
 
-If your project has a lot of features, list them here.
+[![ForTheBadge uses-html](https://ForTheBadge.com/images/badges/uses-html.svg)](https://ForTheBadge.com)
+[![ForTheBadge uses-css](https://ForTheBadge.com/images/badges/uses-css.svg)](https://ForTheBadge.com)
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+Ways to contribute include suggesting bug fixes, or styling advice.
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+To run tests for this application, you will need the Jest testing framework.
+After installing the necessary dependencies and setting up a package.json file, run the following command in the command line to initialize a new package:
+~~~
+npm init
+~~~
+
+Run the following command in the command line to install the Jest package:
+~~~
+npm install jest
+~~~
+
+Run the following command in the command line to run tests:
+~~~
+npm run test
+~~~
+
+## About the Author
+
+My name is Claire and I am a student learning Web Development.

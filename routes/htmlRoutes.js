@@ -6,7 +6,7 @@ router.get("/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "../public/notes.html"))
 });
 
-// Use * to send any other route hit back to home page
+// Use / to send any other route hit back to home page
 router.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../public/index.html"))
 });
