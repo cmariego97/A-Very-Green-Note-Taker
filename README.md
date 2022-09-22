@@ -1,13 +1,26 @@
-# <A-Very-Green-Note-Taker>
+# A-Very-Green-Note-Taker
 
 ## Description
 
-!!!!!!!!
+This project implements Express concepts to create an application that connects front-end and back-end developments.
+
+This application allows the user to create notes, save notes, and also delete the notes.
+
+This project helped me become more familiar with using Express and the Heroku application to deploy my application.
 
 ## Mock-Up
 
 This following image shows a mock-up of the application:
-![HTML webpage of the Team Profile Generator titled "My Awesome Team" that features three boxes listing employees names, titles, and other key info.]()
+
+![homepage of A Very Green Note Taker application](./public/assets/images/note-taker-home.png)
+
+This image below shows the note page of the applicaiton:
+
+![note page of the note taking application](./public/assets/images/note-taker-note.png)
+
+This image below shows the note page and a delete button for existing notes:
+
+![note page with existing notes in the database and a delete button](./public/assets/images/note-taker-note-2.png)
 
 
 ## Table of Contents
@@ -22,21 +35,11 @@ This following image shows a mock-up of the application:
 
 ## Installation
 
-Before using this application, you must install the inquirer package.
-Run the following command line to initialize a new package:
-~~~
-npm init -y
-~~~
-
-For this application we are using Inquirer version 8.2.4.
-Run the following command to install the proper version and required package:
-~~~
-npm i inquirer@8.2.4
-~~~
+N/A
 
 ## Usage
 
-To access this application, click [♡ here ♡] to visit the following URL: 
+To access this application, click [♡ here ♡](https://a-green-note-taker.herokuapp.com/) to visit the following URL: https://a-green-note-taker.herokuapp.com/
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -57,25 +60,11 @@ This application also uses HTML and CSS styling:
 
 ## How to Contribute
 
-Ways to contribute include suggesting bug fixes, or styling advice.
+Ways to contribute include suggesting bug fixes.
 
 ## Tests
 
-To run tests for this application, you will need the Jest testing framework.
-After installing the necessary dependencies and setting up a package.json file, run the following command in the command line to initialize a new package:
-~~~
-npm init
-~~~
-
-Run the following command in the command line to install the Jest package:
-~~~
-npm install jest
-~~~
-
-Run the following command in the command line to run tests:
-~~~
-npm run test
-~~~
+N/A
 
 ## About the Author
 
